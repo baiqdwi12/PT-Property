@@ -1,0 +1,138 @@
+/* Home.php */
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('../images/banner/hero.jpg') center/cover no-repeat;
+}
+
+/* NAVBAR */
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+    padding: 10px 0;
+    background-color: rgba(255,255,255,0.95) !important;
+    backdrop-filter: blur(10px);
+}
+
+/* PROPERTY CARD */
+.property-card {
+    transition: all 0.35s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.property-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.property-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* properties.php */
+.pagination .page-link {
+    color: #000;
+}
+
+.pagination .active .page-link {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+/* property detail */
+/* THUMBNAIL ACTIVE EFFECT */
+.thumb-img {
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.thumb-img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* ABOUT IMAGE */
+img {
+    object-fit: cover;
+}
+
+/* CONTACT BOX */
+.bg-light {
+    border-radius: 12px;
+}
+
+/* BUTTON */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* FOOTER TEXT FIX */
+footer {
+    color: #fff;
+}
+
+footer .text-muted {
+    color: #ccc !important;
+}
+
+footer a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd !important;
+}   
+
+.footer-img {
+    height: 70px;
+    object-fit: cover;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer-img:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
+
+/* animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade in saat load */
+.fade-in-load {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards;
+}
+
+/* Keyframes animasi */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fade-delay-1 { animation-delay: 1s; }
+.fade-delay-2 { animation-delay: 1.5s; }
+.fade-delay-3 { animation-delay: 2s; }

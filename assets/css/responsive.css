@@ -1,0 +1,64 @@
+/* MOBILE */
+@media (max-width: 768px) {
+
+    /* HERO */
+    .hero {
+        height: 70vh;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    /* CARD PROPERTY */
+    .property-card img {
+        height: 180px;
+    }
+
+    /* FEATURED GRID */
+    .row.g-4 > div {
+        margin-bottom: 15px;
+    }
+
+    /* ABOUT SECTION */
+    .row.align-items-center {
+        text-align: center;
+    }
+
+    .row.align-items-center img {
+        margin-bottom: 15px;
+    }
+
+    /* BUTTON */
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    /* MAP SECTION */
+    iframe {
+        min-height: 250px !important;
+    }
+
+    /* CONTACT BOX */
+    .bg-light {
+        padding: 20px !important;
+    }
+}
+
+/* TABLET */
+@media (max-width: 992px) {
+
+    .hero {
+        height: 75vh;
+    }
+
+    .property-card img {
+        height: 200px;
+    }
+}
